@@ -1,7 +1,6 @@
 from pathlib import Path
 import imageio
 from wordcloud import WordCloud
-import pandas as pd
 
 text = Path('book of John Text.txt').read_text()
 
